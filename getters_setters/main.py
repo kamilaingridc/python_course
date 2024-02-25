@@ -14,7 +14,7 @@ class Produto:
 
     @nome.setter
     def nome(self, valor):
-        self._nome = valor
+        self._nome = valor.title()
 
     # Getter
     @property

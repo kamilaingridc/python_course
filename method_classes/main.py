@@ -1,5 +1,5 @@
 class Pessoa:
-    # atributo de clase, está acessível na classe Pessoa
+    # atributo de classe, está acessível na classe Pessoa
     ano_atual = 2019
 
     def __init__(self, nome, idade):
